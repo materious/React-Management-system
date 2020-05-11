@@ -72,7 +72,6 @@ class App extends Component {
               }) :
               <TableRow>
                 <TableCell colSpan="6" align="center">
-                  <CircularProgress />
                   <CircularProgress className={classes.progress} variant="determinate" value={this.state.completed} />
                 </TableCell>
               </TableRow>

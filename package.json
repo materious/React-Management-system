@@ -8,9 +8,11 @@
 	},
 	"dependencies": {
 		"body-parser": "^1.18.3",
-		"express": "^4.16.4"
+		"express": "^4.16.4",
+		"pg": "^8.1.0",
+		"winston": "^3.2.1"
 	},
 	"devDependencies": {
-	"concurrently": "^4.0.1"
+		"concurrently": "^5.2.0"
 	}
 }
